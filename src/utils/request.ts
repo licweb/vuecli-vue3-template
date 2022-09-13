@@ -1,6 +1,8 @@
 import axios from "axios";
+import baseConfig from "@/config";
 
-axios.defaults.baseURL = "https://api.example.com";
+axios.defaults.baseURL = baseConfig.BASE_URL;
+axios.defaults.timeout = baseConfig.TIMEOUT;
 
 axios.interceptors.request.use(
   function (config) {
