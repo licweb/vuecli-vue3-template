@@ -1,5 +1,13 @@
 # vuecli-vue3-template
 
+##基础功能
+
+1. Vue-router
+2. Vuex
+3. SVG雪碧图
+4. Eslint
+5. Axios
+
 ## Project setup
 ```
 npm install
