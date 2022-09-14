@@ -1,12 +1,12 @@
 # vuecli-vue3-template
 
-##基础功能
+### 基础配置功能
 
-1. Vue-router
-2. Vuex
-3. SVG雪碧图
-4. Eslint
-5. Axios
+- Vue-router
+- Vuex
+- SVG雪碧图
+- Eslint
+- Axios
 
 ## Project setup
 ```
