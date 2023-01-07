@@ -1,21 +1,21 @@
 <script setup lang="ts">
-import { defineProps, computed } from "vue";
+import { defineProps, computed } from 'vue'
 const props = defineProps<{
   name: string;
   color?: string;
   size?: string | number;
-}>();
+}>()
 const iconSize = computed(() => {
   if (
-    (typeof props.size === "string" && /^\d+$/.test(props.size)) ||
-    typeof props.size === "number"
+    (typeof props.size === 'string' && /^\d+$/.test(props.size)) ||
+    typeof props.size === 'number'
   ) {
-    return props.size + "px";
+    return props.size + 'px'
   }
-  return props.size;
-});
-const iconName = computed(() => `#icon-${props.name}`);
-const iconColor = computed(() => props.color || "currentColor");
+  return props.size
+})
+const iconName = computed(() => `#icon-${props.name}`)
+const iconColor = computed(() => props.color || 'currentColor')
 </script>
 
 <template>
