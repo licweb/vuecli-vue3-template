@@ -6,6 +6,7 @@
 - Vuex
 - SVG雪碧图
 - Eslint
+- Stylelint
 - Axios
 
 ## Project setup
