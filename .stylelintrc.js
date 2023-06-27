@@ -15,7 +15,7 @@ module.exports = {
     'declaration-colon-space-before': 'never',
     'block-opening-brace-space-before': 'always',
     'rule-empty-line-before': 'never-multi-line',
-    'indentation': 2,
+    indentation: 2,
     'selector-pseudo-class-no-unknown': [
       true,
       {
