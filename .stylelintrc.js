@@ -11,11 +11,7 @@ module.exports = {
     }
   ],
   rules: {
-    'declaration-colon-space-after': 'always-single-line',
-    'declaration-colon-space-before': 'never',
-    'block-opening-brace-space-before': 'always',
     'rule-empty-line-before': 'never-multi-line',
-    indentation: 2,
     'selector-pseudo-class-no-unknown': [
       true,
       {

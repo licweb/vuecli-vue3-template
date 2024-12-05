@@ -2,12 +2,11 @@
 
 ### 基础配置功能
 
-- Vue-router
+- Axios
 - Vuex
 - SVG雪碧图
-- Eslint
+- Eslint（standard）
 - Stylelint
-- Axios
 
 ## Project setup
 ```
